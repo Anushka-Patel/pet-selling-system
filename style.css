@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("background image.jpg");
+    background-size: cover;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 95 2rem;
+}
+
+.navbar a{
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s all;
+    
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: blue;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("home.image.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}       
+
+.home-content h2{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    width: 30rem;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: rgb(174, 174, 228);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem;
+    font-size: 1.6rem;
+    color: rgb(95, 39, 213);
+    font-weight: 600;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+
+.btn:hover{
+    box-shadow:none;
+}
+
+
+#more{
+    display:none;
+}
+
+.navbar a{
+    margin-left: 5rem;
+    font-size: 1.7rem;
+    color: rgb(194, 32, 32);
+    padding: 25px 20px;
+    text-decoration: none;
+    transition: 0.3s all;
+    top: 0;
+    left: 0; right: 0;
+    z-index: 1000;
+    line-height: 4.2;
+    }
+.navbar a:hover,
+.navbar a.active{
+color: blue;
+}
+
+.heading{
+        text-align: center;
+        font-size: 3.5rem;
+        display: flex;
+        justify-content: center;
+    
+}
+
+.about{
+    background-image: url(food\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-image-width: 0%;
+    
+}
+
+.about-content h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 6.2rem;
+    text-align: left;
+    font-size: 3rem;
+}
+
+#box{
+    font-size: 3rem;
+    color: rgb(247, 245, 250);
+}
+
+#box li{
+    margin-left: 100px;
+}
+
+
+#box p{
+    margin-left: 100px;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: rgb(174, 174, 228);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem;
+    font-size: 1.6rem;
+    color: rgb(95, 39, 213);
+    font-weight: 600px;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.btn:hover{
+    box-shadow:none;
+}
+.btn1:hover:hover{
+    box-shadow:none;
+}
+
+.btn2:hover:hover{
+    box-shadow:none;
+}
+
+.item{
+    color: black;
+    align-items: right;
+    margin-left: 900px;
+    padding: 60px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#price-list{
+    flex-direction: column;
+    display: list-item;
+    margin-left: 900px;
+    padding: 60px 0;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(47, 0, 255);
+}
+
+.shop{
+    background-image: url(food\ images.png);
+    background-repeat: no-repeat;
+    border-image-width: 0%;
+    background-color: aqua;
+    background-position: 0ch;
+   
+ }
+
+.shop-content h2{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           text-align: 5vw;
+}
+
+.btn2{
+    display: flex;
+    align-content: center;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: rgb(174, 174, 228);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem;
+    font-size: 1.6rem;
+    color: rgb(95, 39, 213);
+    font-weight: 600;
+    transition: .5s ease;
+    text-decoration: none;
+    margin-left: 900px;
+}
+.btn2:hover:hover{
+    box-shadow:none;
+}
+
+.contact{
+    background-color: rgb(21, 228, 228);
+}
+
+.container1{
+    background-color: cadetblue;
+}
+
+.box1 p{
+    margin-left: 500px;
+    height: 800px;
+    width: 800px;
+    font-size: 20px;
+}
+
+.box2 p{
+    margin-left: 500px;
+    height: 800px;
+    width: 800px;
+    font-size: 20px;
+}
+.box3 p{
+    margin-left: 500px;
+    height: 800px;
+    width: 800px;
+    font-size: 20px;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    padding: 25px;
+    background-image: url(Dogs\ boarding.jpeg);
+    background-size: cover;
+    margin-right: 300px;
+}
+
+.box2{
+    background-image: url(cat\ sevices.jpeg);
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    padding: 25px;
+    margin-right: 400px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.box3{
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    padding: 25px;
+    margin-right: 200px;
+    background-image: url(cow\ services.jpg);
+    background-size: cover;
+}
+
+#input-box{
+    margin-left: 400px;
+    margin-top: 30px;
+#n1{
+    height: 30px;
+    width: 300px;
+    color: black;
+}
+#n2{
+    height: 30px;
+    width: 300px;
+    color: black;
+}
+#n3{
+    height: 30px;
+    width: 300px;
+    color: black;
+}
+}
+#input-box p{
+    font-size: 35px;
+}
+
+#box4{
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 200px;
+    width: 400px;
+}
+
+.btn3{
+    margin-left: 400px;
+    margin-top: 80px;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: rgb(174, 174, 228);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem;
+    font-size: 1.6rem;
+    color: rgb(95, 39, 213);
+    font-weight: 600;
+    transition: .5s ease;
+    text-decoration: none;
+}
+
+.popup{
+     width: 400px;
+     background: #fff;
+     position: absolute;
+     top: 0;
+     left: 50%;
+     transform: translate(-50%,-50%) scale(0.1);
+     text-align: center;
+     padding: 0 30px 30px;
+     color: #333;
+     visibility: hidden;
+     transition: transform 0.4s,top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0,0,0.2);
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #6f6f6f;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0,0,0.2);
+}
+
+
+
+
+
+
+

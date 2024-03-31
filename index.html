@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORMAL PROJECT</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <header class="header">
+        
+        <nav class="navbar">
+            <a href ="#home" class="active"> Home</a>
+            <a href ="#about us"> About us</a>
+            <a href ="#shop"> Shop</a>
+            <a href =" #services"> Services</a>
+            <a href =" #contact"> Contact</a> <br>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2> Hey! Welcome  </h2>
+            <h2>  To Our Pet Shop</h2>
+            <a class="btn">Shop Now....</a>
+            </div>
+            </section>
+
+             <!--about us section design-->
+
+            <section class="about us">
+                <div class="about-content">
+                    <h3> Premium Pet food Manufacture</h3><br>
+                    <div id="box">
+                    <p> Dogs Premium Foods demands</p>
+                
+                        <li>Orijen</li>
+                        <li>Blue Buffalo</li>
+                        <li>Pedigree</li>
+                        <span id="dots"></span>
+
+                        <span id="more">
+                        <li>Royal Canin</li>
+                        <li>Purina Pro Plan</li><br>
+                        <li>$400.00- $500.00</li>
+                        </span>
+                        </p>
+                    </div>
+                    
+                    <a  onclick="myfunction();" class="btn1">Read More...</a>
+                   </div>
+                </div>
+            </section>
+
+            <!--shop section design-->
+
+   <section class="shop" id="shop">
+
+    <div class="shop-content"> 
+        <h2 class="heading">Our Products</h2>
+        <div class="item"> Product List</div>
+        <div id="price-list">
+            BOW WOW ADULT -  PHP70.00<br><br>
+           <li>WINALOT SHAPES - PHP100.00</li><br>
+           <li>BAKERS ADULT  -  PHP50.00</li><br>
+           <li>PEDIGREE    -    PHP150.00</li><br>
+           <li> ROYAL CANIN   -  PHP80.00</li>
+        </div>
+        <a  class="btn2">Read More...</a>
+                </div>
+
+
+</section>
+
+
+<!--services section design-->
+
+<section class="services" id="services">
+    <h2 class="heading">services</h2>
+    <div class="container1">
+        
+        <div class="box1"  style="background-color: aqua;">
+            <p>This is a service center of Dogs. The Poodle is a perfect service dog for those needling assistance with food allergies or home care.
+                Labradors and Golden Retrievers are favoured for this job as they are smart lovable.
+        </p> 
+        </div>
+        <br>
+        <div class="box2"  style="background-color: blue;">
+            <p>This is a cat services center and here provide different different types of servives. Also cats eats protein food.
+                
+            </p> 
+
+        </div>
+        <br>
+        <div class="box3" style="background-color:blueviolet;">
+            <p>This is a cow services center who people left the cows and Buffalo which is very helpful to every animals.
+                    They provides food which is very necessary to animals.
+            </p> 
+
+        </div>
+    </div>
+
+    
+
+    </section>
+
+     <!--contact us section design-->
+
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact us</h2>
+    
+    <form action="#"  onsubmit=" return data()">
+    <div id="input-box">
+        <p>Enter your name </p>
+        <input type="text" placeholder="name" id="n1"><br><br>
+        
+        <p>Enter your email</p>
+        <input type="text" placeholder="email" id="n2"><br><br>
+
+        <p>Enter your password</p>
+        <input type="text" placeholder="password" id="n3"><br><br>
+        </div>
+
+        <textarea name="" id="box4" cols="30" rows="10" placeholder="your message"></textarea>
+        <input type="submit"  class="btn3" value="send message..." onclick="openPopup()"> <br><br>
+         <div class="popup" id="popup">
+            <h2>Thank You !</h2>
+            <p>Your details has been successfully submitted. Thanks!</p>
+            <button type="button" onclick="closePopup()">OK</button>
+         </div>
+    </form>
+    
+
+       
+   </section>    
+ 
+       
+        
+        
+       
+            
+     
+    
+    
+   <script src="script.js" ></script>
+</body>
+</html>
